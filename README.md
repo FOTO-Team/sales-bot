@@ -9,7 +9,8 @@ This bot gets sales and listings for FTM NFTs from **Paintswap** and **NFTKey**.
 2. Open the cli. Make sure python is installed with:
    `python3 --version`
 
-3. Git clone this repositiory
+3. Git clone this repositiory:
+   `git clone https://github.io/FOTO-Team/sales-bot.git`
 
 4. From the cli on the ubuntu vps you set up, navigate into the repository you've git cloned
 
@@ -25,6 +26,6 @@ This bot gets sales and listings for FTM NFTs from **Paintswap** and **NFTKey**.
    Make your changes and save/exit with ctrl+x). You need to edit the "address", "sellchannel", and "listingchannel" variables.
 
 8. Start the bot with:
-   `"python3 main.py"`
+   `python3 main.py`
 
    _Your server must remaining running for the bot to work continuously._
