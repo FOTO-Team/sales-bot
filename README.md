@@ -17,6 +17,6 @@ Get started:
 
 6. Install dependancies with: pip3 install -r requirements.txt
 
-7. Edit the main.py file to the discord channel id's you'd like the bot to post in (you can edit it in the cli using "nano main.py". Make your changes and save/exit with ctrl+x)
+7. Edit the main.py file to include your contract address and the discord channel id's you'd like the bot to post in (you can edit it in the cli using "nano main.py". Make your changes and save/exit with ctrl+x). You need to edit the "address", "sellchannel", and "listingchannel" variables.
 
-8. Start the bot with "python3 main.py"
+8. Start the bot with "python3 main.py". Your server must remaining running for the bot to work continuously.
