@@ -5,6 +5,7 @@ import requests as req
 from web3 import Web3
 import base64
 import ast
+from os.path import isfile
 
 address = '0x93C7B19df2DeA70C7FA3f355F079d6ed077998A7'
 
