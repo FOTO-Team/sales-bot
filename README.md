@@ -12,7 +12,7 @@ This bot gets sales and listings for FTM NFTs from **Paintswap** and **NFTKey**.
 3. Git clone this repositiory:
    `git clone https://github.io/FOTO-Team/sales-bot.git`
 
-4. From the cli on the ubuntu vps you set up, navigate into the repository you've git cloned:
+4. Navigate into the repository you've git cloned:
    `cd sales-bot`
 
 5. Add your discord token (including your the "")
