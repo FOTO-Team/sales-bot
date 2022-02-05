@@ -152,4 +152,8 @@ if __name__ == "__main__":
     bot.load_extension("files.listenertask")
 
 
-bot.run("OTM2NTYxNDEyNTE4NTc2MTU5.YfO-yQ.rmHre8XCOV7nTUbljLMj-VYA0a4")
+if isfile('token.txt'):
+	with open('token.txt')as r:
+		bot.run(r.readline())
+else:
+	print("No Token file found. Please add a token.txt file.")
